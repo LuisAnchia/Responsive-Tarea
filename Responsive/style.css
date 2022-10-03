@@ -1,0 +1,64 @@
+*{
+  
+  margin: 0px;
+
+}
+
+body{
+ background-color: beige;
+}
+
+.container-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.cuadro1{
+  background-color: rgb(243, 0, 0);
+  max-width: 100%;
+  height: 200px;
+  margin: 5px;
+}
+
+.cuadro2{
+  background-color: rgb(238, 48, 48);
+  width: 100%;
+  height: 60px;
+  margin: 5px;
+}
+
+.cuadro3{
+  background-color: rgb(243, 11, 11);
+  width: 100%;
+  height: 120px;
+  margin: 5px;
+}
+
+.cuadro4{
+background-color: rgb(218, 154, 154);
+width: 100%;
+height: 100px;
+margin: 5px;
+}
+
+<!--
+
+@media (max-width: 1023px){
+
+  .container-flex{
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 600px){
+
+  .container-flex > .cuadro4{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+}
+
